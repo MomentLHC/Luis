@@ -1,0 +1,33 @@
+{
+            "id": "luis.app.sub",
+            "name": "Luis 应用订阅",
+            "author": "@luis",
+            "icon": "https://ftp.bmp.ovh/imgs/2021/05/a49833e49f15dc6b.jpg",
+            "repo": "https://github.com/MomentLHC/Luis",
+            "apps": [
+            
+    {
+            "id": "fhxz",
+            "name": "富豪小镇",
+            "keys": ["fhxzurl","fhxzhd","fhxzurl2","fhxzhd2","fhxzurl3","fhxzhd3","fhxzurl4","fhxzhd4","fhxzurl5","fhxzhd5","fhxzurl6","fhxzhd6","fhxzurl7","fhxzhd7","fhxzurl8","fhxzhd8","fhxzurl9","fhxzhd9","fhxzurl10","fhxzhd10"],
+            "author": "@ency",
+            "settings": [{
+            "id": "fhxzstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "fhxzcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "repo": "",
+            "icons": ["", ""],
+            "script": ""
+    } 
+]
+}
