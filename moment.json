@@ -1,6 +1,6 @@
 {
             "id": "luis.app.sub",
-            "name": "Luis 应用订阅",
+            "name": "Luis 脚本订阅",
             "author": "@luis",
             "icon": "https://ftp.bmp.ovh/imgs/2021/05/a49833e49f15dc6b.jpg",
             "repo": "https://github.com/MomentLHC/Luis",
