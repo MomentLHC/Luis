@@ -100,6 +100,84 @@
         "https://raw.githubusercontent.com/58xinian/icon/master/xmyd_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png"
       ]
+    },
+    {
+      "id": "qndxx",
+      "name": "青年大学习",
+      "key": [],
+      "descs_html": [
+        "<h4 align=\"center\">微信 => 通讯录 => 公众号 => 云南共青团 => 大学习 => 注册团员登录学习 => 我的 => 签到</a></h4>"
+      ],
+      "settings": [
+        {
+          "id": "qndxx_study",
+          "name": "开启每周学习",
+          "val": true,
+          "type": "boolean",
+          "desc": "开启则表示进行每周学习,建议假期关闭该选项"
+        },
+        {
+          "id": "qndxx_difference",
+          "name": "周数差值",
+          "val": "",
+          "type": "text",
+          "desc": "抓到学习包中txtid的值与脚本计算的周数的差值,不会的可不填(94)"
+        },
+        {
+          "id": "qndxx_review",
+          "name": "开启复习模式",
+          "val": true,
+          "type": "boolean",
+          "desc": "开启则表示进行往前学习,建议开启该选项"
+        },
+        {
+          "id": "qndxx_num",
+          "name": "学习往期大学习",
+          "val": "",
+          "type": "number",
+          "desc": "学习往期大学习,不可少于2期,不填则默认2期"
+        }
+      ],
+      "author": "@chiupam",
+      "repo": "https://github.com/chiupam/surge",
+      "script": "https://raw.githubusercontent.com/chiupam/surge/main/scripts/qndxx.js",
+      "icons": [
+        "https://raw.githubusercontent.com/chiupam/surge/main/boxjs/icon/qndxx.jpg",
+        "https://raw.githubusercontent.com/chiupam/surge/main/boxjs/icon/qndxx.jpg"
+      ]
+    },
+    {
+      "id": "GitHub",
+      "name": "访问私库",
+      "keys": [],
+      "descs_html": [
+        "<h4 align=\"center\">Github > Menu > Settings > Developer settings > Personal access tokens > Generate new token > Note > ☑️repo > Generate token。</a></h4>"
+      ],
+      "settings": [
+        {
+          "id": "@GitHub.username",
+          "name": "Github Username",
+          "val": "",
+          "type": "text",
+          "placeholder": "(点击以展开说明)",
+          "desc": "Your Github Name"
+        },
+        {
+          "id": "@GitHub.token",
+          "name": "Personal Access Tokens",
+          "val": "",
+          "type": "text",
+          "placeholder": "(点击以展开说明)",
+          "desc": "Personal Access Tokens"
+        }
+      ],
+      "author": "@chiupam",
+      "repo": "https://github.com/chiupam/surge",
+      "script": "https://raw.githubusercontent.com/chiupam/surge/main/scripts/github.js",
+      "icons": [
+        "https://raw.githubusercontent.com/chiupam/surge/main/boxjs/icon/GitHub.jpg",
+        "https://raw.githubusercontent.com/chiupam/surge/main/boxjs/icon/GitHub.jpg"
+      ]
     }
 ]
 }
